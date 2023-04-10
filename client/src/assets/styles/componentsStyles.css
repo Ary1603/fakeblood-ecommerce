@@ -1,0 +1,543 @@
+/* CSS FOR ALL THE COMPONENTS */
+
+/* COMPONENT: CARROUSEL */
+.carrousel-img-text {
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.btn-shop-now-carrousel {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #838484;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #656666;
+    margin-bottom: 30px;
+}
+
+/* COMPONENT: PING CARDS */
+
+.ping-card {
+    width: 20%;
+    margin: 20px 2%;
+}
+
+.ping-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.ping-icon {
+    font-size: 30px;
+    margin: 0px 25%;
+}
+
+.ping-description {
+    font-size: 10px;
+    text-align: justify;
+    width: 90%;
+    color: #979899;
+}
+
+/* Login and Register */
+
+/* LOGIN */
+
+.login-register-container {
+    margin-top: 5%;
+    height: 500px;
+    display: flex;
+}
+
+.login-container {
+
+    width: 50%;
+    height: 100%;
+}
+
+#form-login {
+    margin-top: 40px;
+}
+
+#login-form-container {
+    margin: 0px 20%;
+}
+
+.form-login-text {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#slogan-login {
+    font-size: 15px;
+}
+
+#fakeblood-login-title {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#welcome-back-title {
+    font-size: 35px;
+    font-family: 'Alkatra', cursive;
+}
+
+#slogan-login {
+    font-size: 14px;
+}
+
+.labels-login-form {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-login-form {
+    width: 100%;
+    font-size: 15px;
+}
+
+.checkbox-container {
+    margin-top: 5%;
+    display: flex;
+    width: 35%;
+}
+
+.checkbox-container>span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+#forgot-password {
+    margin-left: 60%;
+    font-size: 15px;
+}
+
+.btn-login-register-form {
+
+    margin: 5% 25.5%;
+}
+
+.btn-login-register-form {
+    --bg: #e74c3c;
+    --text-color: #fff;
+    position: relative;
+    width: 150px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 0.35em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
+}
+
+.btn-login-register-form:hover {
+    opacity: 1;
+}
+
+.btn-login-register-form:active {
+    top: 4px;
+    box-shadow: #c0392b 0px 3px 2px, #000 0px 3px 5px;
+}
+
+#dont-have-an-account {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+.container-form-image {
+    width: 50%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/550x/19/fe/9f/19fe9f7a1689e567829ee29b1a004226.jpg');
+}
+
+.a-links {
+    text-decoration: none;
+}
+
+/* REGISTER */
+.register-container {
+
+    width: 50%;
+    height: 100%;
+}
+
+#btn-create-account {
+    width: 60%;
+    margin: 30px 18%;
+}
+
+/* CARDS PRODUCTS SHOP */
+.shop-container{
+    display: flex;
+    width: 70%;
+}
+.cart{
+    position: fixed;
+    right: 4%;
+    margin-top: 6.2%;
+    max-height: 60vh;
+    overflow-y: auto;
+    width: 28%;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 12px;
+}
+
+.empty-cart{
+    
+    margin: 20% 18%;
+    
+}
+
+.empty-cart > img{
+    width: 160px;
+    margin-left: 8%;
+}
+
+.card-product {
+    margin: 5%;
+    width: 180px;
+    height: 360px;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    color: black;
+}
+
+.btn-for-pay-products{
+    right: 60px;
+    top: 110px;
+}
+
+
+/*CART STYLE*/
+.shop-cart-container-cards{
+    display: flex;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.cart-image-product{
+    width: 85px;
+    border-radius:  5px;
+}
+
+.title-product-cart{
+    font-size: 15px;
+}
+
+.details-cart-product{
+    margin-left: 8px;
+}
+
+.card-product-img {
+    background-color: #ffcaa6;
+    height: 30%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+.card-product-img > img{
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.card-product-info {
+    padding-top: 10%;
+
+}
+
+.svg-icon-card-product {
+    width: 20px;
+    height: 20px;
+}
+
+.card-product-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/*Text*/
+.text-title-card-product {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.text-body-card-product {
+    font-size: 10px;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+/*Button*/
+.card-product-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+}
+
+/*Hover*/
+.card-product-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.card-product-button:hover {
+    border: 1px solid #ffcaa6;
+    background-color: #ffcaa6;
+}
+
+/* Upload product form */
+
+.form-container-sell-product{
+    background-color: #c9e0f06e;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container-sell-product > form > h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 2%;
+}
+
+.label-form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1.2%;
+    margin-top: 2%;
+}
+
+.form-container-sell-product > form > input{
+    margin-top: 2%;
+    width: 50vw;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+.input-upload-file{
+    border-style: none !important;
+}
+
+
+
+/*Responsive Queries*/
+@media screen and (min-width: 1439px){
+    .brand-images {
+        width: 150px;
+        height: 80px;
+    }
+
+    .ad-text-info {
+        padding: 74px;
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 770px){
+    .container-img-brands {
+        display: inline-block;
+        
+    }
+
+    .brand-images {
+        width: 88px;
+        
+    }
+
+    #offer-text {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    /*SHOP*/
+    .empty-cart > img {
+        width: 115px;
+        margin-left: 0%;
+    }
+
+    .cart {
+        
+        
+        margin-top: 11%;
+        
+        
+       
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width: 475px){
+    .container-img-brands {
+        display: inline-block;
+    }
+
+    .brand-images {
+        width: 88px;
+        
+    }
+
+    .slogans-container > p {
+        
+        font-size: 20px;
+        
+        margin-right: 0px;
+    }
+
+    .our-insurance-slogan {
+
+        width: 37%;
+        font-size: 11px;
+
+    }
+
+    .categoy-card {
+        width: 139px;
+       
+        margin: 7px 1px;
+    }
+
+    .ad-text-info {
+        padding: 10px;
+    }
+
+    #offer-text {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    /*SHOP*/
+    .cart {
+        
+        right: 4%;
+        margin-top: 17%;
+        
+        width: 39%;
+       
+    }
+
+    /*Login form*/
+    .container-form-image{
+        display: none;
+    }
+
+    .login-container,.register-container {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 380px){
+    .container-img-brands {
+        display: inline-block;
+    }
+
+    .slogans-container > p {
+        font-size: 24px;
+         margin-right: 0%; 
+         text-align: center;
+    }
+
+    .our-insurance-slogan {
+         width: 100%; 
+    }
+
+    .ping-title {
+        display: none;
+    }
+
+    .ad-text-info {
+        padding: 18px;
+    }
+
+    #ad-img {
+        width: 41%;
+        height: 50p;
+    }
+
+    .ad-container {
+        
+        height: 140px;
+    }
+
+    #store-description-container {
+        width: 294px;
+    }
+
+    .carrousel-img-text {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .btn-shop-now-carrousel {
+  
+        margin-bottom: 4px;
+    }
+
+    #offer-text {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    /*Shop section*/
+    .card-product {
+        margin: 5%;
+        width: 140px;
+        height: 269px;
+        
+    }
+
+    .cart {
+        
+        right: 1%;
+        margin-top: 24%;
+        width: 38%;
+        
+    }
+
+    .empty-cart > img {
+        width: 81px;
+        margin-left: 0%;
+    }
+
+    p {
+        margin-top: 0;
+        font-size: 11px;
+        /* margin-bottom: -11rem; */
+    }
+
+    .btn-for-pay-products {
+        right: 23px;
+        top: 110px;
+    }
+
+    /*Login form*/
+    .container-form-image{
+        display: none;
+    }
+
+    .login-container,.register-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}

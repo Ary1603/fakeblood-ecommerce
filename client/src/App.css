@@ -1,0 +1,268 @@
+ /* STRIP OFFER */
+.strip-offers{
+  background-color: #1d242d;
+  text-align: center;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+#sign-up-now-strip-offer{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* LANDING PAGE CONTENT top of the page */
+.landing-page-body-container{
+  padding: 0px 6%;
+}
+
+/* NAVBAR */
+#shop-link{
+  margin-left: 500px !important;
+}
+
+/* BRANDS SECTION */
+.brands-title{
+  margin: 30px 0px;
+  font-family: sans-serif;
+}
+
+.container-img-brands{
+  display: flex;
+}
+
+.brand-images{
+  width: 90px;
+  height: 55px;
+  margin: 15px 18px;
+}
+
+/* SLOGANS SECTION */
+.slogans-container{
+  display: flex;
+  margin-top: 55px;
+}
+
+.slogans-container > p{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-right: 22%;
+}
+
+.our-insurance-slogan{
+  border-left: 3px solid #1d242d8a;
+  height: 60px;
+  width: 40%;
+  font-size: 12px;
+  margin: auto auto;
+  color: #b3b5b8;
+}
+
+.our-insurance-slogan > p{
+  padding-top: 5%;
+  padding-left: 3%;
+}
+
+/* PINGS SECTION */
+.pings-container{
+  display: flex;
+}
+
+/* CATEGORY CARDS SECTION */
+
+.categories-title{
+  font-family: sans-serif;
+  margin: 40px 0px;
+}
+.categoy-card{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  margin: 25px 1px;
+}
+
+.cssbuttons-io-button {
+  background: #A370F0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  margin-top: 20px;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/* AD CONTAINER */
+.ad-container{
+  margin-top: 90px;
+  display: flex;
+  background-color: #1d242d;
+  color: #ffffff;
+}
+
+#ad-img{
+  width: 50%;
+}
+
+.ad-text-info{
+  padding: 40px;
+}
+
+#limited-offer-text{
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+#offer-text{
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.btn-grab-it-now{
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #838484;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #656666;
+  margin-bottom: 30px;
+  height: 30px;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+/* NEWSLETTER CONTAINER */
+.subscribe-newsletter-container{
+  text-align: center;
+  margin-top: 70px;
+}
+.subscribe-newsletter-container > h2{
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#newsletter-offer{
+  font-size: 15px;
+  margin-top: 10px;
+  color: #838484;
+}
+
+.email-input-newsletter{
+  border-radius: 5px;
+  background-color: #b6bdbd25;
+  border: 0.5px solid gray;
+  padding-left: 20px;
+}
+
+.btn-subscribe-newsletter{
+  background-color: #1d242d;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 4px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#fake-blood-policy{
+  font-size: 10px;
+  margin-right: 55px;
+  margin-top: 15px;
+}
+
+/* FOOTER SECTION */
+
+footer{
+  
+  background-color: #eaeef2;
+  margin-top: 100px;
+  position: absolute;
+  width: 98.89999vw;
+}
+#store-description-container{
+  width: 350px;
+}
+
+#description-store-name, .footer-title-sections{
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+#description{
+  font-size: 12px;
+}
+
+.footer-title-sections{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+hr{
+  width: 80%;
+  margin: auto !important;
+}
+
+#copyright-term{
+  text-align: center;
+}
+
+.ul-footer{
+  padding: 0;
+}
+
+.ul-footer > li {
+  list-style: none;
+  font-size: 10px;
+  padding: 0px;
+  cursor: pointer;
+}
